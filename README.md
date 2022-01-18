@@ -5,5 +5,5 @@
 
 问题：
 
-1. 默认livox激光雷达的fram_id都是livox_frame，代码里只是把待标定激光雷达的fram_id在程序里有调整成livox_child，但待标定激光雷达的fram_id还是livox_frame
+1. 默认livox激光雷达的frame_id都是livox_frame，代码里只是把待标定激光雷达的fram_id在程序里有调整成livox_child，但待标定激光雷达的frame_id还是livox_frame
 2. 基于第1点原因，运行tf.launch并不能生效
