@@ -1,0 +1,7 @@
+<launch>
+
+  <param name="use_sim_time" value="true"/>
+  
+  <node pkg="tf" type="static_transform_publisher" name="fl_fh" args="0.0155023 -0.173332  0.025543  2.89574 -3.11753  3.12097 /livox_frame /livox_child 10" />
+
+</launch>
